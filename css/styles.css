@@ -141,12 +141,12 @@ nav ul li:hover a{
     margin-bottom: 30px;
 }
 
-.col-3 img{
+.col-3 .img{
     width: 100%;
     transition: all 1s ease;
 }
 
-.col-3 img:hover{
+.col-3 .img:hover{
     transform: scale(1.3);
 }
 .container-2{
@@ -164,10 +164,10 @@ nav ul li:hover a{
     transition: 0.5s;
 }
 
-.col-4 img, h4, a, p{
+.col-4 .img, h4, a, p{
     margin: 8px;
 }
-.col-4 img{
+.col-4 .img{
     width: 70%;
 }
 
@@ -210,3 +210,44 @@ h4{
     /*transform: translateY(-5%);*/
     transform: scale(1.3);
 }
+
+/*---------------------- Discount ---------------*/
+.offers{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    padding: 30px 0;
+}
+
+.col-2 .offers-img{
+    padding: 50px;
+}
+
+.offer-post{
+    margin: 100px 50px;
+}
+
+
+/*--------------------- Reviews ------------------------*/
+
+.review{
+    padding-top: 100px;
+}
+
+.review .col-3{ 
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.review .col-3 p{
+    text-align: justify;
+}
+
+.review .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.col-3 .rate{
+    color: #ff7b00;
+}
+
