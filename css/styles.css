@@ -1,0 +1,131 @@
+
+@import url('../css/fonts.css');
+
+/* ------------- General Custom ----------*/
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.header{
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+:root{
+
+    /* Font Families*/
+    --Abel: 'Abel', cursive;
+    --Anton: 'Anton', cursive;
+    --Josefin: 'Josefin', cursive;
+    --Lexend: 'Lexend', cursive;
+    --Livvic: 'Livvic', cursive;
+
+    --text-gray: #3f4954;
+}
+
+.btn{
+    outline-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--Livvic);
+}
+
+/*--------------------- Navigation Bar ---------------*/
+
+.container{
+    /*max-width: 1300px;*/
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0 22rem;
+}
+
+nav ul li{
+    padding: 1.6rem 1.5rem;
+    position: relative;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #252422;
+    font-size: 1.2rem;
+    font-family: var(--Livvic);
+}
+
+nav ul li:hover{
+    background-color: #219ebc;
+    
+}
+
+nav ul li:hover a{
+    color: white;
+}
+
+.navbar .fas:hover{
+    background-color: none !important;
+}
+
+
+/*--------------------- Content --------------*/
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+
+}
+
+.col-2 h1{
+    font-size: 50px;
+    font-family: var(--Livvic);
+    color: #002642;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.col-2 p{
+    font-family: var(--Abel);
+    color: #002642;
+}
+
+.btn{
+    display: inline-block;
+    background: #219ebc;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #6930c3;
+}
